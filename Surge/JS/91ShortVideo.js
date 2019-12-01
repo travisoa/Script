@@ -18,4 +18,4 @@ if (obj.data.match(/^[A-Z0-9]{1000,4000}$/)) {
     $done({})
   }
 
-  // From NobyDa, Welcome to focus on my TG channel @NobyDa
+ // From NobyDa, Welcome to focus on my TG channel @NobyDa
