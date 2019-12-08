@@ -10,6 +10,10 @@ http-response ^https?:\/\/api\.vnision\.com\/v1\/(users\/|banners) requires-body
 Surge & QX MITM = api.vnision.com
 */
 
+/**
+ * @supported FA1D8A8AEDE8
+ */
+ 
 var body = $response.body;
 var url = $request.url;
 
