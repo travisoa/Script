@@ -1,4 +1,10 @@
 var obj = JSON.parse($response.body); 
 obj['pendingRenewalInfo']['isAutoRenewEnabled'] = true;
-obj['latestExpirationDateMs'] = 1587631226000; 
+obj['latestExpirationDateMs'] = 1587631226000;
+obj['latestPurchaseDateMs'] = 1556008826000;
+obj['latestTransactionId'] = 410000559221832;
+obj['originalPurchaseDateMs'] = 1555565892000;
+obj['originalTransactionId'] = 410000511799185;
+obj['isExpired'] = false;
+obj['pendingRenewalInfo']['expirationIntent'] = null;
 $done({body: JSON.stringify(obj)});
