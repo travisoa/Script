@@ -1,4 +1,4 @@
-QuantunmultX规则脚本整理，纯属自用！
+# QuantunmultX规则脚本整理，纯属自用！
 
 
 # 项目来源，特别感谢
