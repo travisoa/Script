@@ -1,3 +1,8 @@
+/*
+surge4:
+http-response https://api.bilibili.com/pgc/view/app/season requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/travisoa/Script/master/Surge/JS/bilibili_season.js
+*/
+
 //https://api.bilibili.com/pgc/view/app/season
 
 const url = $request.url
@@ -33,5 +38,7 @@ if (season_id) {
 } else {
     $done({})
 }
+
+//by:onewayticket255
 
 

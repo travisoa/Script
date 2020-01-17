@@ -1,3 +1,8 @@
+/*
+surge4:
+http-response https://app.bilibili.com/x/resource/show/tab\?access_key requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/travisoa/Script/master/Surge/JS/bilibili_tab.js
+*/
+
 //Customize whitelist
 let whitelist = ['追番', '推荐', '直播', '热门', '影视', '拜年祭']
 
@@ -17,3 +22,8 @@ body['data']['bottom'].forEach((element, index) => {
 delete body['data']['top']
 body = JSON.stringify(body)
 $done({ body }) 
+
+
+
+
+//by:onewayticket255

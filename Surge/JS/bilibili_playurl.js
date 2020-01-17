@@ -1,3 +1,9 @@
+/*
+surge4:
+http-response https://api.bilibili.com/pgc/player/api/playurl requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/travisoa/Script/master/Surge/JS/bilibili_playurl.js
+*/
+
+
 //https://api.bilibili.com/pgc/player/api/playurl
 
 const url = $request.url
@@ -20,3 +26,6 @@ $httpClient.get(api, (error, response, body) => {
         $done({ body })
     }
 })
+
+
+//by:onewayticket255
