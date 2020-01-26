@@ -1,6 +1,6 @@
-const lang = "en"
-var lat_lon = "21.14874994081167,106.0631039005945"
-var api = "d61d56e7025c803083cb4e4d4513d1a3"
+const lang = "zh"
+var lat_lon = "40.2031,116.3732"
+var api = "a679377a009bfd42ca495680050ccf68"
 async function launch() {
     await weather();
     $done();
