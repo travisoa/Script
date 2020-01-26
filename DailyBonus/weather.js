@@ -16,7 +16,7 @@ function weather() {
     $httpClient.get(info, async function (error, response, data) {
         if (error) {
             console.log(error);
-            $notification.post("Dark Sky", lat_lon + 'bad connection', error);
+            $notification.post("今日天气", lat_lon + 'bad connection', error);
         } else {
             var obj = JSON.parse(data);
             console.log(obj);
