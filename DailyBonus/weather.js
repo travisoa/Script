@@ -1,5 +1,5 @@
 const lang = "zh"
-var lat_lon = "40.2031,116.3732"
+var lat_lon = "40.32,116.62"
 var api = "a679377a009bfd42ca495680050ccf68"
 async function launch() {
     await weather();
