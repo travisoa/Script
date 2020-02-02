@@ -1,4 +1,4 @@
-# Update-2019.10.23 Self-use rule, Remove versus shenji duplicates and optimizations
+# Update-2019.12.13 Self-use rule, Remove versus shenji duplicates and optimizations
 # This rule does not include shenji
 DOMAIN-SUFFIX,apoll.m.taobao.com,REJECT
 DOMAIN-SUFFIX,comet.yahoo.com,REJECT
@@ -17,7 +17,6 @@ DOMAIN-SUFFIX,cupid.iqiyi.com,REJECT
 DOMAIN-SUFFIX,emoticon.sns.iqiyi.com,REJECT
 DOMAIN-SUFFIX,game.pps.tv,REJECT
 DOMAIN-SUFFIX,gamecenter.iqiyi.com,REJECT
-DOMAIN-SUFFIX,hotchat-im.iqiyi.com,REJECT
 DOMAIN-SUFFIX,mbdlog.iqiyi.com,REJECT
 DOMAIN-SUFFIX,msg.iqiyi.com,REJECT
 DOMAIN-SUFFIX,msg.video.qiyi.com,REJECT
@@ -7978,4 +7977,4 @@ DOMAIN-SUFFIX,zzy1.quyaoya.com,REJECT
 DOMAIN-SUFFIX,zzz7.52896368.com,REJECT
 DOMAIN-SUFFIX,zzzzz4.52896368.com,REJECT
 DOMAIN-SUFFIX,analytics.query.yahoo.com,REJECT
-DOMAIN-SUFFIX,is.snssdk.com,REJECT
+DOMAIN-SUFFIX,ap.dongqiudi.com,REJECT
