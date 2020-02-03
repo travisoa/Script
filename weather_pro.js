@@ -2,6 +2,53 @@
 可以自由定制显示的天气脚本,想怎样都随你,轻松修改轻松查看
 https://github.com/sazs34/TaskConfig/blob/master/assets/weather_pro.md
  */
+             }
+            })
+
+        }
+    }
+}
+// #endregion 网络请求专用转换
+
+// #region cookie操作
+if (isQuantumultX) {
+    $persistentStore = {
+        read: key => {
+            return $prefs.valueForKey(key);
+        },
+        write: (val, key) => {
+            return $prefs.setValueForKey(val, key);
+        }
+    }
+}
+if (isSurge) {
+    $prefs = {
+        valueForKey: key => {
+            return $persistentStore.read(key);
+        },
+        setValueForKey: (val, key) => {
+            return $persistentStore.write(val, key);
+        }
+    }
+}
+// #endregion
+
+// #region 消息通知
+if (isQuantumultX) {
+    $notification = {
+        post: (title, subTitle, detail) => {
+            $notify(title, subTitle, detail);
+        }
+    }
+}
+if (isSurge) {
+    $notify = function (title, subTitle, detail) {
+        $notification.post(title, subTitle, detail);
+    }
+}
+// #endregion
+ 
+ 
 let config = {
     darksky_api: "a679377a009bfd42ca495680050ccf68", //从https://darksky.net/dev/ 上申请key填入即可
     aqicn_api: "9875d2cd04f15506b8c4c4cb58c6ee57979202fa", //从http://aqicn.org/data-platform/token/#/ 上申请key填入即可
