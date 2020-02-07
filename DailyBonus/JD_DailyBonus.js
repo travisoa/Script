@@ -1,5 +1,5 @@
 /*
-JingDong bonus twelve in one
+JingDong bonus fifteen in one
 
 Description :
 When using for the first time. Need to manually log in to the https://bean.m.jd.com checkin to get cookie. If notification gets cookie success, you can use the check in script.
@@ -8,7 +8,7 @@ Due to the validity of cookie, if the script pops up a notification of cookie in
 Daily bonus script will be performed every day at 0:05 a.m. You can modify the execution time.
 If reprinted, please indicate the source. My TG channel @NobyDa
 
-Update 2020.2.7 15:00 v57
+Update 2020.2.8 0:00 v58
 ~~~~~~~~~~~~~~~~
 Surge 4.0 :
 [Script]
@@ -71,10 +71,10 @@ async function all() {//签到模块相互独立,您可注释某一行以禁用�
   await JDFlashSale(); //京东闪购
   await JingDongBook(); //京东图书
   await JDSecondhand(); //京东拍拍二手
-  await JingDongShake(); //京东摇一摇
-  await JingDMakeup(); //京东美妆
-  await JingDongWomen(); //京东女装
+  await JingDMakeup(); //京东美妆馆
+  await JingDongWomen(); //京东女装馆
   await JingDongCash(); //京东现金红包
+  await JingDongShake(); //京东摇一摇
   await notify(); //通知模块
 }
 
