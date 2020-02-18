@@ -152,7 +152,7 @@ let config = {
             sport: false, //运动指数,
             trav: false, //旅游指数,
             uv: false, //紫外线指数,
-            air: false, //空气污染扩散条件指数,
+            air: true, //空气污染扩散条件指数,
             ac: false, //空调开启指数,
             ag: false, //过敏指数,
             gl: false, //太阳镜指数,

@@ -172,17 +172,17 @@ $[daily($[month]月$[day]日  $[temperatureLow]~$[temperatureHigh]°C  $[weather
             comf: true, //舒适度指数,
             cw: true, //洗车指数,
             sport: true, //运动指数,
-            trav: true, //旅游指数,
+            trav: false, //旅游指数,
             uv: true, //紫外线指数,
             air: true, //空气污染扩散条件指数,
             ac: true, //空调开启指数,
             ag: true, //过敏指数,
-            gl: true, //太阳镜指数,
+            gl: false, //太阳镜指数,
             mu: false, //化妆指数,
             airc: true, //晾晒指数,
             ptfc: true, //交通指数,
             fsh: false, //钓鱼指数,
-            spi: true, //防晒指数
+            spi: false, //防晒指数
         }
     }
 }
