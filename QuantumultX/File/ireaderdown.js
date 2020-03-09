@@ -8,3 +8,10 @@ obj['body']['fee_info']['original_price'] = 0;
 
 
 $done({body: JSON.stringify(obj)});
+
+/*
+美区掌阅
+^https:\/\/api\.ireader\.mobi\/download\/fee_tpl\/.* url script-response-body NobyDa/Surge/JS/ireaderdown.js
+
+Mimt=api.ireader.mobi
+*/
