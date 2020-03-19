@@ -299,4 +299,4 @@ function compatibility() {
     }
     return { isRequest, isQuanX, isSurge, notify, write, read, post, end }
 };
-
+$done();

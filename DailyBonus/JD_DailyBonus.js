@@ -2000,3 +2000,4 @@ function nobyda() {
     }
     return { isQuanX, isSurge, isJSBox, isRequest, notify, write, read, get, post, log, done }
 };
+$done();

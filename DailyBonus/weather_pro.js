@@ -987,3 +987,4 @@ Date.prototype.Format = function (fmt) {
 }
 // #endregion
 weather();
+$done();

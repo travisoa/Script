@@ -173,3 +173,4 @@ $httpClient.get(nCoVdata, function(error, response, data){
     }
 }
 );
+$done();

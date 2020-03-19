@@ -39,3 +39,4 @@ function weather() {
             $notification.post("今日天气", icon + " " +Math.round(daily_mintemp) + " - " + Math.round(daily_maxtemp) + "  ☔️ " + (Number(daily_prec_chance) * 100).toFixed(1)+ "%", hour_summary);        }
     });
 }
+$done();

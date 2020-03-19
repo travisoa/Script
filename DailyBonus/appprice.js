@@ -150,3 +150,4 @@ $httpClient.post('https://itunes.apple.com/lookup?id=' + appIds + "&country=" + 
         $done()
     }
 })
+$done();

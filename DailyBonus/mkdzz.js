@@ -59,4 +59,5 @@ $httpClient.get(kdurl, function(error, response, data){
     }
 }
 );
+$done();
 

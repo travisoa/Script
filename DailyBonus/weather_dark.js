@@ -372,3 +372,4 @@ function record(log) {
 }
 
 weather();
+$done();
