@@ -14,7 +14,7 @@ function getParams(key) {
     return tmp ? tmp[1] : null
 }
 
-const api = `https://bilibili.mlyx.workers.dev/?cid=${getParams('cid')}&ep_id=${getParams('ep_id')}`
+const api = `https://bilibili.mlyx.workers.dev/?cid=${getParams('cid')}&ep_id=${getParams('317784')}`
 
 $httpClient.get(api, (error, response, body) => {
     if (error || response.status == 404) {
