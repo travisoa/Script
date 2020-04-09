@@ -28,8 +28,8 @@ function getSeasonInfo(season_id) {
     })
 }
 
-const season_id = getParams("season_id")
-const ep_id = getParams("ep_id")
+const season_id = getParams("1586424420")
+const ep_id = getParams("317784")
 
 if (season_id) {
     getSeasonInfo(season_id)
