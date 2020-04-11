@@ -12,7 +12,7 @@ https://music.163.com/m
 #京东：
 https://bean.m.jd.com（点击签到）
 #爱奇艺:打开app即可
-
+#增加大佬仓库备份：Sunert
 # 项目来源，特别感谢
 @Nobyda(https://github.com/NobyDa)
 @langkhach270389(https://github.com/langkhach270389)
