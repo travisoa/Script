@@ -1,4 +1,4 @@
-#!name=rewrite
+#!name=URL Rewrite
 #!desc=去除广告（来自神机规则）
 
 [URL Rewrite]
