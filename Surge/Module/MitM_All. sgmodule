@@ -1,0 +1,4 @@
+#!name=MitM All Hostnames
+#!desc=Perform MitM on all hostnames with port 443
+[MITM]
+hostname = *
