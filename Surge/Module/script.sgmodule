@@ -1,0 +1,25 @@
+#!name=Script_cookies
+#!desc=获取cookies脚本
+
+[Script]
+# cookies获取
+# 百度
+// tieba.cookie.js = script-path=https://raw.githubusercontent.com/travisoa/Script/master/DailyBonus/tieba.cookie.js,script-update-interval=0,pattern=^https?:\/\/tieba\.baidu\.com\/?.?,type=http-request
+# 网易云音乐
+// neteasemusic.cookie.js = script-path=https://raw.githubusercontent.com/travisoa/Script/master/DailyBonus/neteasemusic.cookie.js,script-update-interval=0,pattern=^https?:\/\/music\.163\.com\/?.?,type=http-request
+# 腾讯视频
+// videoqq.cookie.js = script-path=https://raw.githubusercontent.com/travisoa/Script/master/DailyBonus/videoqq.cookie.js,script-update-interval=0,pattern=^https:\/\/access.video.qq.com\/user\/auth_refresh,type=http-request
+# 爱奇艺
+// iQIYI_GetCookie.js = script-path=https://raw.githubusercontent.com/travisoa/Script/master/DailyBonus/iQIYI_GetCookie.js,script-update-interval=0,pattern=https?:\/\/.*\.iqiyi\.com\/.*authcookie=,type=http-request
+# 京东
+// JD_DailyBonus.js = script-path=https://raw.githubusercontent.com/travisoa/Script/master/DailyBonus/JD_DailyBonus.js,script-update-interval=0,pattern=https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean(Index|GroupStageIndex),type=http-request
+# 10010
+// 10010.cookie.js = script-path=https://raw.githubusercontent.com/travisoa/Script/master/DailyBonus/10010.cookie.js,script-update-interval=0,pattern=^https:\/\/act.10010.com\/SigninApp\/signin\/querySigninActivity.htm,type=http-request
+// 10010.cookie.js = script-path=https://raw.githubusercontent.com/travisoa/Script/master/DailyBonus/10010.cookie.js,script-update-interval=0,pattern=^https:\/\/act.10010.com\/SigninApp(.*?)\/signin\/daySign.do,type=http-request
+// 10010.cookie.js = script-path=https://raw.githubusercontent.com/travisoa/Script/master/DailyBonus/10010.cookie.js,script-update-interval=0,pattern=^https:\/\/m.client.10010.com\/dailylottery\/static\/(textdl\/userLogin|active\/findActivityInfo),type=http-request
+# bilibili漫画
+// Manga.js = script-path=https://raw.githubusercontent.com/travisoa/Script/master/DailyBonus/Manga.js,script-update-interval=0,pattern=https:\/\/manga\.bilibili\.com\/.*\.User\/GetWallet,type=http-request
+# 微信活动抽奖
+// WeChatLottery.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/travisoa/Script/master/DailyBonus/WeChatLottery.js,script-update-interval=0,pattern=^https:\/\/new\.api\.hdcj\.9w9\.com\/api\/sign\/sign,type=http-request
+# 京东到家
+// jddj.cookie.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/travisoa/Script/master/DailyBonus/jddj.cookie.js,script-update-interval=0,pattern=^https:\/\/daojia.jd.com/client(.*?)functionId=signin(.*?)userSigninNew,type=http-request
