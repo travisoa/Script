@@ -259,7 +259,7 @@ DOMAIN-SUFFIX,zc.biz.weibo.com
 DOMAIN-SUFFIX,adash-c.ut.taobao.com
 DOMAIN-SUFFIX,adashbc.m.taobao.com
 DOMAIN-SUFFIX,adashbc.ut.taobao.com
-DOMAIN-SUFFIX,adashx.m.taobao.com
+#DOMAIN-SUFFIX,adashx.m.taobao.com
 DOMAIN-SUFFIX,adashxgc.ut.taobao.com
 DOMAIN-SUFFIX,click.mz.simba.taobao.com
 DOMAIN-SUFFIX,click.simba.taobao.com
