@@ -769,3 +769,4 @@ URL-REGEX,^https?:\/\/emdcadvertise\.eastmoney\.com\/infoService
 URL-REGEX,^https?:\/\/www.icourse163.org\/.*(Advertisement).*
 URL-REGEX,^https?:\/\/sf.*-ttcdn-tos\.pstatp\.com\/obj\/ad
 URL-REGEX,^https?:\/\/oset-api\.open-adx\.com\/ad\/
+URL-REGEX,^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start
