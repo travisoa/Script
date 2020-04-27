@@ -1,4 +1,4 @@
-#Update 2020.3.26 Self-use for testing only, there may be a lot of manslaughter.
+#Update 2020.4.27 Self-use for testing only, there may be a lot of manslaughter.
 DOMAIN-SUFFIX,admaster.com
 DOMAIN-SUFFIX,0z5jn.cn
 DOMAIN-SUFFIX,114so.cn
@@ -136,7 +136,6 @@ DOMAIN-SUFFIX,adfilter.imtt.qq.com
 DOMAIN-SUFFIX,adsrich.qq.com
 DOMAIN-SUFFIX,aexception.bugly.qq.com
 DOMAIN-SUFFIX,android.bugly.qq.com
-DOMAIN-SUFFIX,appsupport.qq.com
 DOMAIN-SUFFIX,astat.bugly.qq.com
 DOMAIN-SUFFIX,beacon.qq.com
 DOMAIN-SUFFIX,bs.l.qq.com
@@ -147,7 +146,6 @@ DOMAIN-SUFFIX,c2.l.qq.com
 DOMAIN-SUFFIX,cb.l.qq.com
 DOMAIN-SUFFIX,cdn.ark.qq.com
 DOMAIN-SUFFIX,cfg.imtt.qq.com
-DOMAIN-SUFFIX,cgi.connect.qq.com
 DOMAIN-SUFFIX,client.show.qq.com
 DOMAIN-SUFFIX,cm.e.qq.com
 DOMAIN-SUFFIX,cm.l.qq.com
@@ -627,7 +625,6 @@ DOMAIN-SUFFIX,ecpm.tanx.com
 DOMAIN-SUFFIX,ef-dongfeng.tanx.com
 DOMAIN-SUFFIX,ef.opendsp.tanx.com
 DOMAIN-SUFFIX,ef.tanx.com
-DOMAIN-SUFFIX,epochtimes.com
 DOMAIN-SUFFIX,eso999.com
 DOMAIN-SUFFIX,et.tanx.com
 DOMAIN-SUFFIX,et.w.inmobi.com
@@ -916,7 +913,6 @@ DOMAIN-SUFFIX,track.eyeviewads.com
 DOMAIN-SUFFIX,tracker.yhd.com
 DOMAIN-SUFFIX,tracklog.58.com
 DOMAIN-SUFFIX,trc.taboola.com
-DOMAIN-SUFFIX,tuidang.epochtimes.com
 DOMAIN-SUFFIX,tvupgrade.yunos.com
 DOMAIN-SUFFIX,u-x.jd.com
 DOMAIN-SUFFIX,u.123hala.com
@@ -927,7 +923,6 @@ DOMAIN-SUFFIX,uimg.123hala.com
 DOMAIN-SUFFIX,uma.gtags.net
 DOMAIN-SUFFIX,ums.adtechjp.com
 DOMAIN-SUFFIX,ums.adtechus.com
-DOMAIN-SUFFIX,umtrack.com
 DOMAIN-SUFFIX,union2.50bang.org
 DOMAIN-SUFFIX,up1.tj.u2.ucweb.com
 DOMAIN-SUFFIX,update.123juzi.net
@@ -1151,7 +1146,6 @@ DOMAIN-SUFFIX,iadmusicmat.music.126.net
 DOMAIN-SUFFIX,imgad0.pconline.com.cn
 DOMAIN-SUFFIX,imgadpai.thepaper.cn
 DOMAIN-SUFFIX,impservice.dictapp.youdao.com
-DOMAIN-SUFFIX,lbs.map.qq.com
 DOMAIN-SUFFIX,miniapp.bilibili.com
 DOMAIN-SUFFIX,mmstat.com
 DOMAIN-SUFFIX,mobilead.kuwo.cn
@@ -1197,7 +1191,6 @@ DOMAIN-KEYWORD,supersonicads
 DOMAIN-KEYWORD,taboola
 DOMAIN-KEYWORD,traffic
 DOMAIN-KEYWORD,uedas
-DOMAIN-KEYWORD,umtrack
 DOMAIN-KEYWORD,wlmonitor
 DOMAIN-KEYWORD,zjtoolbar
 DOMAIN-KEYWORD,admarvel
@@ -1271,7 +1264,6 @@ DOMAIN,e.crashlytics.com
 DOMAIN,unidesk.alicdn.com
 DOMAIN,cdn-adphone.wenhua.com.cn
 DOMAIN,api.e.qq.com
-DOMAIN,mi.gdt.qq.com
 DOMAIN,net.rayjump.com
 DOMAIN,report.adview.cn
 DOMAIN-SUFFIX,doubleclick.net
