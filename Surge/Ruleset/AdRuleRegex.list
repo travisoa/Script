@@ -772,3 +772,6 @@ URL-REGEX,^https?:\/\/oset-api\.open-adx\.com\/ad\/
 URL-REGEX,^https:\/\/.*\.alicdn\.com/.*\.png
 #京东启动广告
 URL-REGEX,^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start
+#笔趣阁广告
+URL-REGEX,^https:\/\/dihb\.wap\.xsbiquge\.com\/[\d]{4}\(com\?[\d]{13}
+URL-REGEX,^https:\/\/qeujmo\.wap\.xsbiquge\.com\/[\w]{2,}\/1xhtml\?[\w]{13}
