@@ -774,4 +774,4 @@ URL-REGEX,^https:\/\/.*\.alicdn\.com/.*\.png
 URL-REGEX,^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start
 #笔趣阁广告
 URL-REGEX,^https:\/\/dihb\.wap\.xsbiquge\.com\/[\d]{4}\(com\?[\d]{13}
-URL-REGEX,^https:\/\/qeujmo\.wap\.xsbiquge\.com\/[\w]{2,}\/1xhtml\?[\w]{13}
+URL-REGEX,^https:\/\/qeujmo\.wap\.xsbiquge\.com\/.*\/1xhtml\?[\w]{13}
