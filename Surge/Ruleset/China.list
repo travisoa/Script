@@ -392,3 +392,5 @@ IP-CIDR,34.80.87.173/32,no-resolve
 IP-CIDR,52.160.69.90/32,no-resolve
 # DNSPod Public DNS+
 IP-CIDR,119.28.28.28/32,no-resolve
+
+DOMAIN-SUFFIX,biqupa.com
