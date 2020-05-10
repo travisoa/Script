@@ -8227,7 +8227,7 @@ DOMAIN,adsmind.tc.qq.com
 DOMAIN,btrace.qq.com
 DOMAIN,mtrace.qq.com
 DOMAIN,oth.eve.mdt.qq.com
-DOMAIN,pgdt.gtimg.cn
+#DOMAIN,pgdt.gtimg.cn
 DOMAIN,pingma.qq.com
 DOMAIN,pingtcss.qq.com
 DOMAIN,splashqqlive.gtimg.com
