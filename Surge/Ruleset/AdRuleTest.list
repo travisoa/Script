@@ -174,7 +174,7 @@ DOMAIN-SUFFIX,ls.l.qq.com
 DOMAIN-SUFFIX,mapp.qzone.qq.com
 DOMAIN-SUFFIX,mazu.3g.qq.com
 DOMAIN-SUFFIX,mta.qq.com
-DOMAIN-SUFFIX,mtrace.qq.com
+#DOMAIN-SUFFIX,mtrace.qq.com
 DOMAIN-SUFFIX,openapi.guanjia.qq.com
 DOMAIN-SUFFIX,oth.eve.mdt.qq.com
 DOMAIN-SUFFIX,p.l.qq.com

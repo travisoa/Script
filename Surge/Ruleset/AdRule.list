@@ -8225,7 +8225,7 @@ DOMAIN-SUFFIX,gdt.qq.com
 DOMAIN-SUFFIX,rqd.qq.com
 DOMAIN,adsmind.tc.qq.com
 DOMAIN,btrace.qq.com
-DOMAIN,mtrace.qq.com
+#DOMAIN,mtrace.qq.com
 DOMAIN,oth.eve.mdt.qq.com
 #DOMAIN,pgdt.gtimg.cn
 DOMAIN,pingma.qq.com
