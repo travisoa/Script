@@ -159,7 +159,7 @@ DOMAIN-SUFFIX,fusion.qq.com
 DOMAIN-SUFFIX,fw.qq.com
 DOMAIN-SUFFIX,hm.l.qq.com
 DOMAIN-SUFFIX,httpring.qq.com
-DOMAIN-SUFFIX,iacc.qq.com
+#DOMAIN-SUFFIX,iacc.qq.com
 DOMAIN-SUFFIX,if.mingxing.qq.com
 DOMAIN-SUFFIX,imc.l.qq.com
 DOMAIN-SUFFIX,img1.sj.qq.com
