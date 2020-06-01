@@ -23,6 +23,7 @@ Manga.js = script-path=https://raw.githubusercontent.com/travisoa/Script/master/
 WeChatLottery.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/travisoa/Script/master/DailyBonus/WeChatLottery.js,script-update-interval=0,pattern=^https:\/\/new\.api\.hdcj\.9w9\.com\/api\/sign\/sign,type=http-request
 # 京东到家
 jddj.cookie.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/travisoa/Script/master/DailyBonus/jddj.cookie.js,script-update-interval=0,pattern=^https:\/\/daojia.jd.com/client(.*?)functionId=signin(.*?)userSigninNew,type=http-request
-
+#JD618
+JD618 = type=http-request,pattern=^https:\/\/api.m.jd.com\/client.action\?functionId=cakebaker_getHomeData,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/jd/jd.618.cookie.js,requires-body=true,debug=true
 [MITM]
-hostname = %APPEND% *.iqiyi.com, m.client.10010.com, api.m.jd.com, manga.bilibili.com, act.10010.com, *.video.qq.com, daojia.jd.com, *.api.hdcj.9w9.com, music.163.com, tieba.baidu.com
+hostname = %APPEND% *.iqiyi.com, m.client.10010.com, api.m.jd.com, manga.bilibili.com, act.10010.com, *.video.qq.com, daojia.jd.com, *.api.hdcj.9w9.com, music.163.com, tieba.baidu.com, api.m.jd.com
