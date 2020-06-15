@@ -68,11 +68,11 @@ function priceSummary(data) {
     listPriceDetail.pop()
     let list = listPriceDetail.concat(historySummary(data.single))
     list.forEach((item, index) => {
-        if (item.Name == "双11价格") {
+        if (index == 2) {
             item.Name = "双十一价格"
-        } else if (item.Name == "618价格") {
+        } else if (index == 3) {
             item.Name = "六一八价格"
-        } else if (item.Name == "30天最低价") {
+        } else if (index == 4) {
             item.Name = "三十天最低"
         }
         summary += `\n${item.Name}${getSpace(8)}${item.Price}${getSpace(8)}${item.Date}${getSpace(8)}${item.Difference}`
