@@ -2,8 +2,6 @@
 #!desc=去除广告（来自神机规则）
 
 [URL Rewrite]
-# Geoip修复更新
-# ^(http|https)://geolite.maxmind.com/download/geoip/database/GeoLite2-Country.tar.gz https://download.maxmind.com/app/geoip_download?edition_id=GeoLite2-Country&license_key=7eHbY4Bsb35mYvGa&suffix=tar.gz 302
 # Redirect Google Search Service
 ^https?:\/\/(www.)?(g|google)\.cn https://www.google.com 302
 # Redirect HTTP to HTTPS
