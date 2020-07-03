@@ -782,5 +782,7 @@ URL-REGEX,"^https?:\/\/((2(5[0-5]|[0-4]\d))|[0-1]?\d{1,2})(\.((2(5[0-5]|[0-4]\d)
 URL-REGEX,^http:\/\/qzonestyle\.gtimg\.cn\/qzone\/space_item\/material\/CustomPraise\/org\/.*\.png$
 URL-REGEX,^https:\/\/i\.gtimg\.cn\/qqshow\/admindata\/comdata\/vipData_url_to_api\/ios\.json$
 
-URL-REGEX,^http:\/\/js\.passport\.qihucdn\.com\/.*\.js\?.*,REJECT-TINYGIF
-URL-REGEX,^http:\/\/tzvip\.dslebag\.com\/.*\.php\?s=.*,REJECT-TINYGIF
+URL-REGEX,^http:\/\/js\.passport\.qihucdn\.com\/.*\.js\?.*
+URL-REGEX,^http:\/\/tzvip\.dslebag\.com\/.*\.php\?s=.*
+#Youtube去片头广告
+URL-REGEX,^https?:\/\/[\w-]+\.googlevideo\.com\/.+&(oad|ctier)
