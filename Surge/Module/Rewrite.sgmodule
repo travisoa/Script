@@ -246,7 +246,7 @@ hostname = %APPEND% claritywallpaper.com, luma-touch.com, *.cloudfront.net, v.qq
 ^https?:\/\/api\.kkmh\.com\/.+(ad|advertisement)\/ - reject
 # > 酷我 (122.14.246.33,175.102.178.52)
 # (仅 Surge 可用因其支持 force-http-engine-hosts)
-^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/MobileAdServer\/ - reject
+^https?:\/\/((25[0-6]|2[0-5]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/MobileAdServer\/ - reject
 ^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/EcomResourceServer/AdPlayPage/adinfo - reject
 # > 看理想
 ^https?:\/\/api\.vistopia\.com\.cn\/api\/v\d\/home\/advertisement - reject
