@@ -16916,9 +16916,7 @@ payload:
  - DOMAIN-SUFFIX,rqd.qq.com
  - DOMAIN,adsmind.tc.qq.com
  - DOMAIN,btrace.qq.com
- - #DOMAIN,mtrace.qq.com
  - DOMAIN,oth.eve.mdt.qq.com
- - #DOMAIN,pgdt.gtimg.cn
  - DOMAIN,pingma.qq.com
  - DOMAIN,pingtcss.qq.com
  - DOMAIN,splashqqlive.gtimg.com
@@ -17194,4 +17192,3 @@ payload:
  - DOMAIN-SUFFIX,appcpi.net
  - DOMAIN-SUFFIX,bulldogcpi.com
  - DOMAIN-SUFFIX,insurads.com
->>>>>>> dbf20a4f50f769498215e7271a8abd3356a9a398
