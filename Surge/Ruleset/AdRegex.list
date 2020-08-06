@@ -1,0 +1,12 @@
+# MitM: api.m.jd.com, ulogs.umeng.com, *.wap.xsbiquge.com, *.vludu.cn, *.googlevideo\.com
+
+#京东启动广告
+URL-REGEX,^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start
+#笔趣阁广告
+URL-REGEX,^https:\/\/(slumiss|dihb)\.wap\.xsbiquge\.com\/[\w]+\(com\?[\d]{13}
+URL-REGEX,^https:\/\/qeujmo\.wap\.xsbiquge\.com\/.*\/1xhtml\?[\w]{13}
+URL-REGEX,^https:\/\/.*\.nsfjfja\.cn\/.*
+URL-REGEX,^https:\/\/.*\.wap\.xsbiquge\.com\/.*\.php\?(s|g)=.*
+URL-REGEX,^https:\/\/.*\.vludu\.cn\/.*\.(png|gif\??)
+#Youtube去片头广告
+URL-REGEX,^https?:\/\/[\w-]+\.googlevideo\.com\/.+&(oad|ctier)
