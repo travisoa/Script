@@ -128,7 +128,7 @@ URL-REGEX,^https?:\/\/img1\.126\.net\/channel14\/
 URL-REGEX,^https?:\/\/mimg\.127\.net\/external\/smartpop-manger\.min\.js
 URL-REGEX,^https?:\/\/nex\.163\.com\/q
 URL-REGEX,^https?:\/\/oimage([a-z])([0-9])\.ydstatic\.com\/.+?&product=adpublish
-URL-REGEX,^https?:\/\/p[^4](c)?\.music\.126\.net\/\w+==\/10995\d{13}\.jpg$
+#URL-REGEX,^https?:\/\/p[^4](c)?\.music\.126\.net\/\w+==\/10995\d{13}\.jpg$
 URL-REGEX,^https?:\/\/dsp-impr2\.youdao\.com\/adload.s\?
 URL-REGEX,^https?:\/\/interface\.music\.163\.com\/eapi\/ad\/
 URL-REGEX,^https?:\/\/.+\/client?functionId=lauch\/lauchConfig&appName=paidaojia
