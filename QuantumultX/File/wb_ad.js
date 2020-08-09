@@ -1,11 +1,5 @@
 /*
-Weibo remove ads. by yichahucha
-
-[rewrite_local]
-^https?://m?api\.weibo\.c(n|om)/2/(statuses/(unread|extend|positives/get|(friends|video)(/|_)(mix)?timeline)|stories/(video_stream|home_list)|(groups|fangle)/timeline|profile/statuses|comments/build_comments|photo/recommend_list|service/picfeed|searchall|cardlist|page|!/photos/pic_recommend_status|video/tiny_stream_video_list) url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/wb_ad.js
-^https?://(sdk|wb)app\.uve\.weibo\.com(/interface/sdk/sdkad.php|/wbapplua/wbpullad.lua) url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/wb_launch.js
-[mitm]
-hostname = api.weibo.cn, mapi.weibo.com, *.uve.weibo.com
+README：https://github.com/yichahucha/surge/tree/master
  */
 
 const path1 = "/groups/timeline";
@@ -28,6 +22,7 @@ const path17 = "/statuses/friends_timeline";
 const path18 = "/!/photos/pic_recommend_status";
 const path19 = "/statuses/video_mixtimeline";
 const path20 = "/video/tiny_stream_video_list";
+const path21 = "/photo/info";
 
 const url = $request.url;
 let body = $response.body;
@@ -106,9 +101,13 @@ if (
 } else if (url.indexOf(path19) != -1) {
     let obj = JSON.parse(body);
     delete obj.expandable_view;
-    if(obj.hasOwnProperty('expandable_views'))
+    if (obj.hasOwnProperty('expandable_views'))
         delete obj.expandable_views;
     body = JSON.stringify(obj);
+} else if (url.indexOf(path21) != -1) {
+    if (body.indexOf("ad_params") != -1) {
+        body = JSON.stringify({});
+    }
 }
 
 $done({ body });
@@ -147,19 +146,25 @@ function filter_timeline_cards(cards) {
             let item = cards[j];
             let card_group = item.card_group;
             if (card_group && card_group.length > 0) {
-                let i = card_group.length;
-                while (i--) {
-                    let card_group_item = card_group[i];
-                    let card_type = card_group_item.card_type;
-                    if (card_type) {
-                        if (card_type == 9) {
-                            if (is_timeline_ad(card_group_item.mblog)) card_group.splice(i, 1);
-                        } else if (card_type == 118 || card_type == 89) {
-                            card_group.splice(i, 1);
-                        } else if (card_type == 42) {
-                            if (card_group_item.desc == '\u53ef\u80fd\u611f\u5174\u8da3\u7684\u4eba') {
-                                cards.splice(j, 1);
-                                break;
+                if (item.itemid && item.itemid == "hotword") {
+                    filter_top_search(card_group);
+                } else {
+                    let i = card_group.length;
+                    while (i--) {
+                        let card_group_item = card_group[i];
+                        let card_type = card_group_item.card_type;
+                        if (card_type) {
+                            if (card_type == 9) {
+                                if (is_timeline_ad(card_group_item.mblog)) card_group.splice(i, 1);
+                            } else if (card_type == 118 || card_type == 89) {
+                                card_group.splice(i, 1);
+                            } else if (card_type == 42) {
+                                if (card_group_item.desc == '\u53ef\u80fd\u611f\u5174\u8da3\u7684\u4eba') {
+                                    cards.splice(j, 1);
+                                    break;
+                                }
+                            } else if (card_type == 17) {
+                                filter_top_search(card_group_item.group);
                             }
                         }
                     }
@@ -173,6 +178,18 @@ function filter_timeline_cards(cards) {
         }
     }
     return cards;
+}
+
+function filter_top_search(group) {
+    if (group && group.length > 0) {
+        let k = group.length;
+        while (k--) {
+            let group_item = group[k];
+            if (group_item.hasOwnProperty("promotion")) {
+                group.splice(k, 1);
+            }
+        }
+    }
 }
 
 function is_timeline_ad(mblog) {
