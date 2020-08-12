@@ -748,5 +748,4 @@ URL-REGEX,^https?:\/\/oset-api\.open-adx\.com\/ad\/
 USER-AGENT,Weibo%20intl*
 USER-AGENT,AliXAdSDK*
 USER-AGENT,neteasemusic*
-AND,((USER-AGENT,osee2*), (NOT,((DOMAIN-SUFFIX,zhihu.com))), (NOT,((DOMAIN-SUFFIX,zhimg.com))))
 AND,((USER-AGENT,pixiv*), (NOT,((DOMAIN-KEYWORD,pixiv))))
