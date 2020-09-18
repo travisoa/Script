@@ -9,4 +9,4 @@ URL-REGEX,^https:\/\/.*\.nsfjfja\.cn\/.*
 URL-REGEX,^https:\/\/.*\.wap\.xsbiquge\.com\/.*\.php\?(s|g)=.*
 URL-REGEX,^https:\/\/.*\.vludu\.cn\/.*\.(png|gif\??)
 #Youtube去片头广告
-URL-REGEX,^https?:\/\/[\w-]+\.googlevideo\.com\/.+&(oad|ctier)
+#URL-REGEX,^https?:\/\/[\w-]+\.googlevideo\.com\/.+&(oad|ctier)
