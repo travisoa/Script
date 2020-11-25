@@ -747,5 +747,5 @@ URL-REGEX,^https?:\/\/sf.*-ttcdn-tos\.pstatp\.com\/obj\/ad
 URL-REGEX,^https?:\/\/oset-api\.open-adx\.com\/ad\/
 USER-AGENT,Weibo%20intl*
 USER-AGENT,AliXAdSDK*
-USER-AGENT,neteasemusic*
-AND,((USER-AGENT,pixiv*), (NOT,((DOMAIN-KEYWORD,pixiv))))
+#USER-AGENT,neteasemusic*
+#AND,((USER-AGENT,pixiv*), (NOT,((DOMAIN-KEYWORD,pixiv))))
