@@ -22,7 +22,7 @@ let apps = [
 if ($.read("apps") != "" && $.read("apps") != undefined) {
   apps = $.read("apps").split("，");
 }
-let reg = "vn"; 
+let reg = "us"; 
 if ($.read("reg") != "" && $.read("reg") != undefined) {
   reg = $.read("reg");
 }
