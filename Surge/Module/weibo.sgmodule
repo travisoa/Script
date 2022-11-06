@@ -25,11 +25,3 @@ weibo_main = type=http-response,requires-body=1,max-size=0,pattern=^https?://m?a
 weibo_launch = type=http-response,requires-body=1,max-size=0,pattern=^https?://(sdk|wb)app\.uve\.weibo\.com(/interface/sdk/sdkad.php|/wbapplua/wbpullad.lua),script-path=https://raw.githubusercontent.com/zmqcherish/proxy-script/main/weibo_launch.js
 自定义tab 皮肤 = type=http-response,requires-body=1,max-size=0,pattern=^https://api.weibo.cn/2/!/client/light_skin,script-path=https://raw.githubusercontent.com/zmqcherish/proxy-script/main/weibo_main.js
 会员tab皮肤 = type=http-request,pattern=^https://new.vip.weibo.cn/littleskin/preview,script-path=https://raw.githubusercontent.com/zmqcherish/proxy-script/main/weibo_main.js
-
-微博国际版_推荐tab = type=http-request,pattern=^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/statuses\/unread_hot_timeline,script-path=https://gitlab.com/ddgksf2013/Cuttlefish/-/raw/master/Script/weibo_json.js
-
-微博国际版_关注tab = type=http-request,pattern=^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/statuses\/friends_timeline,script-path=https://gitlab.com/ddgksf2013/Cuttlefish/-/raw/master/Script/weibo_json.js
-
-微博国际版_趋势 = type=http-request,pattern=^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/cardlist,script-path=https://gitlab.com/ddgksf2013/Cuttlefish/-/raw/master/Script/weibo_json.js
-
-微博国际版_趋势tab = type=http-request,pattern=^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php.*feed&a=trends,script-path=https://gitlab.com/ddgksf2013/Cuttlefish/-/raw/master/Script/weibo_json.js
