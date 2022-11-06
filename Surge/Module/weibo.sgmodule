@@ -2,9 +2,6 @@
 #!desc= Remove weibo Ads
 #!system=ios
 
-[Rule]
-
-
 [MITM]
 hostname = %APPEND% api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, new.vip.weibo.cn
 
