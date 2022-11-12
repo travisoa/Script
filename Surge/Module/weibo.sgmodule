@@ -3,8 +3,7 @@
 #!system=ios
 
 [MITM]
-hostname = %APPEND% api.weibo*, mapi.weibo.com, *.uve.weibo.com, new.vip.weibo.cn,sdkapp.uve.weibo.com
-
+hostname = %APPEND% api.weibo*, mapi.weibo.com, *.uve.weibo.com, new.vip.weibo.cn,sdkapp.uve.weibo.com,api.weibo.cn
 [URL Rewrite]
 # WeiboLite_微博国际版
 ^https?:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/sdkad\.php  url reject
@@ -19,9 +18,6 @@ hostname = %APPEND% api.weibo*, mapi.weibo.com, *.uve.weibo.com, new.vip.weibo.c
 # WeiboLite_微博国际版_屏蔽开屏广告
 ^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php.*ads url reject
 
-
 [Script]
-weibo_main = type=http-response,requires-body=1,max-size=0,pattern=^https?://m?api\.weibo\.c(n|om)/2/(cardlist|searchall|page|messageflow|statuses/(unread_)?friends(/|_)timeline|groups/timeline|statuses/(container_timeline|unread_hot_timeline|extend|video_mixtimeline|unread_topic_timeline)|profile/(me|container_timeline)|video/(community_tab|remind_info|tiny_stream_video_list)|checkin/show|\!/live/media_homelist|comments/build_comments|container/get_item|search/(finder|container_timeline|container_discover)),script-path=https://raw.githubusercontent.com/zmqcherish/proxy-script/main/weibo_main.js
-weibo_launch = type=http-response,requires-body=1,max-size=0,pattern=^https?://(sdk|wb)app\.uve\.weibo\.com(/interface/sdk/sdkad.php|/wbapplua/wbpullad.lua),script-path=https://raw.githubusercontent.com/zmqcherish/proxy-script/main/weibo_launch.js
-自定义tab 皮肤 = type=http-response,requires-body=1,max-size=0,pattern=^https://api.weibo.cn/2/!/client/light_skin,script-path=https://raw.githubusercontent.com/zmqcherish/proxy-script/main/weibo_main.js
-会员tab皮肤 = type=http-request,pattern=^https://new.vip.weibo.cn/littleskin/preview,script-path=https://raw.githubusercontent.com/zmqcherish/proxy-script/main/weibo_main.js
+weibo = type=http-response,pattern=^https?://(sdk|wb)app\.uve\.weibo\.com(/interface/sdk/sdkad.php|/wbapplua/wbpullad.lua),requires-body=1,max-size=-1,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/wb_launch.js,script-update-interval=0
+weibo_ad = type=http-response,pattern=^https?://m?api\.weibo\.c(n|om)/2/(statuses/(unread|extend|positives/get|(friends|video)(/|_)(mix)?timeline)|stories/(video_stream|home_list)|(groups|fangle)/timeline|profile/statuses|comments/build_comments|photo/recommend_list|service/picfeed|searchall|cardlist|page|!/(photos/pic_recommend_status|live/media_homelist)|video/tiny_stream_video_list|photo/info|remind/unread_count),requires-body=1,max-size=-1,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/wb_ad.js,script-update-interval=0
