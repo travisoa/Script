@@ -5,3 +5,4 @@ DOMAIN,chat.gpt3.com
 DOMAIN,engine-inference.api.openai.com
 DOMAIN,engine-proxy.api.openai.com
 DOMAIN,engine.sciclops.com
+DOMAIN-SUFFIX,openai.com
