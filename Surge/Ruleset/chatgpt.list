@@ -1,9 +1,10 @@
 DOMAIN,api.openai.com
 DOMAIN,beta.openai.com
 DOMAIN,chat-collector.api.openai.com
-DOMAIN,chat.gpt3.com
-DOMAIN,engine-inference.api.openai.com
-DOMAIN,engine-proxy.api.openai.com
-DOMAIN,engine.sciclops.com
+DOMAIN-SUFFIX,chat.gpt3.com
 DOMAIN,chat.openai.com
+DOMAIN-SUFFIX,engine-inference.api.openai.com
+DOMAIN-SUFFIX,engine-proxy.api.openai.com
+DOMAIN-SUFFIX,engine.sciclops.com
+DOMAIN,openai.com
 DOMAIN-SUFFIX,openai.com
