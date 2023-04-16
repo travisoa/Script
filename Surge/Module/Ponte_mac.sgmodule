@@ -4,4 +4,4 @@
 
 
 [Host]
-nas.myhome = 192.168.1.106 // Nas
+nas.myhome = 192.168.0.104 // Nas
