@@ -5,9 +5,3 @@
 
 [Host]
 nas.myhome = 192.168.0.104 // Nas
-
-[Rule]
-#腾讯游戏
-PROCESS-NAME,CocoaCefWing,DIRECT // START
-PROCESS-NAME,STGame,DIRECT // START
-PROCESS-NAME,START,DIRECT // START
