@@ -1,7 +1,0 @@
-#!name=iPhone ponte
-#!desc=iphone端surge ponte设置
-#!system=ios
-
-
-[Rule]
-DOMAIN-SUFFIX,myhome,DEVICE:MACMINI // Nas

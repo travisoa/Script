@@ -1,7 +1,0 @@
-#!name=Mac ponte
-#!desc=Mac端surge ponte设置
-#!system=mac
-
-
-[Host]
-nas.myhome = 192.168.0.104 // Nas
