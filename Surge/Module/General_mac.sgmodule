@@ -1,5 +1,5 @@
-#!name=START
-#!desc=START绕过代理
+#!name=MacApp
+#!desc=Mac相关app专属配置
 #!system=mac
 
 [General]
@@ -13,5 +13,5 @@ tun-excluded-routes = %APPEND% 183.3.235.141/32, 157.148.32.0/24,157.148.33.0/24
 PROCESS-NAME,CocoaCefWing,DIRECT // START
 PROCESS-NAME,STGame,DIRECT // START
 PROCESS-NAME,START,DIRECT // START
-
-
+#CleanMyMacX
+PROCESS-NAME,/Applications/CleanMyMac X.app/Contents/Library/LoginItems/CleanMyMac X Menu.app/Contents/MacOS/CleanMyMac X Menu,DIRECT // CleanMyMacX
