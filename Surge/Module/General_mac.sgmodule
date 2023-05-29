@@ -15,3 +15,5 @@ PROCESS-NAME,STGame,DIRECT // START
 PROCESS-NAME,START,DIRECT // START
 #CleanMyMacX
 PROCESS-NAME,/Applications/CleanMyMac X.app/Contents/Library/LoginItems/CleanMyMac X Menu.app/Contents/MacOS/CleanMyMac X Menu,DIRECT // CleanMyMacX
+PROCESS-NAME,/Applications/CleanMyMac X.app/Contents/MacOS/CleanMyMac X,DIRECT
+PROCESS-NAME,/Applications/CleanMyMac X.app/Contents/Library/LoginItems/CleanMyMac X HealthMonitor.app/Contents/MacOS/CleanMyMac X HealthMonitor,DIRECT
