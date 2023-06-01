@@ -224,3 +224,13 @@ DOMAIN-SUFFIX,ytimg.com
 DOMAIN,youtubei.googleapis.com
 DOMAIN,yt3.ggpht.com
 DOMAIN,play.googleapis.com
+
+#NASA
+DOMAIN-SUFFIX,nasa.gov
+DOMAIN-SUFFIX,nasa.com
+DOMAIN-SUFFIX,nasa.org
+DOMAIN-SUFFIX,nasa.net
+DOMAIN-SUFFIX,nasa.space
+DOMAIN-SUFFIX,nasa.mil
+DOMAIN-SUFFIX,nasa.gov.uk
+DOMAIN-SUFFIX,nasa.eu
