@@ -1,5 +1,6 @@
-DOMAIN-SUFFIX,speedtest.net,Speedtest
-DOMAIN,www.speedtest.net,Speedtest
-DOMAIN-SUFFIX,ookla.com,Speedtest
-DOMAIN-SUFFIX,cloudtestfiles.com,Speedtest
-DOMAIN-SUFFIX,speedtestcustom.com,Speedtest
+DOMAIN-SUFFIX,speedtest.net
+DOMAIN,www.speedtest.net
+DOMAIN-SUFFIX,ookla.com
+DOMAIN-SUFFIX,cloudtestfiles.com
+DOMAIN-SUFFIX,speedtestcustom.com
+DOMAIN-KEYWORD,speedtest
