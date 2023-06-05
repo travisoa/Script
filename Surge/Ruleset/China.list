@@ -394,3 +394,8 @@ IP-CIDR,52.160.69.90/32,no-resolve
 IP-CIDR,119.28.28.28/32,no-resolve
 
 DOMAIN-SUFFIX,biqupa.com
+#医保服务平台
+DOMAIN-SUFFIX,cn-shanghai.aliyuncs.com
+DOMAIN-SUFFIX,gov.cn
+#阿里云盘
+DOMAIN-KEYWORD,aliyundrive
