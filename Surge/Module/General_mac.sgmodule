@@ -14,8 +14,12 @@ PROCESS-NAME,CocoaCefWing,DIRECT // START
 PROCESS-NAME,STGame,DIRECT // START
 PROCESS-NAME,START,DIRECT // START
 #CleanMyMacX
-PROCESS-NAME,/Applications/CleanMyMac X.app/Contents/Library/LoginItems/CleanMyMac X Menu.app/Contents/MacOS/CleanMyMac X Menu,DIRECT // CleanMyMacX
-PROCESS-NAME,/Applications/CleanMyMac X.app/Contents/MacOS/CleanMyMac X,DIRECT
-PROCESS-NAME,/Applications/CleanMyMac X.app/Contents/Library/LoginItems/CleanMyMac X HealthMonitor.app/Contents/MacOS/CleanMyMac X HealthMonitor,DIRECT
+PROCESS-NAME,CleanMyMac X Menu,DIRECT // CleanMyMacX
+PROCESS-NAME,CleanMyMac X,DIRECT
+PROCESS-NAME,CleanMyMac X HealthMonitor,DIRECT
 #TV
-PROCESS-NAME,/System/Applications/TV.app/Contents/MacOS/TV,DIRECT
+PROCESS-NAME,TV,DIRECT
+#阿里云盘
+PROCESS-NAME,aDrive Helper,DIRECT
+PROCESS-NAME,aDrive,DIRECT
+PROCESS-NAME,aDrive Helper (Renderer),DIRECT
