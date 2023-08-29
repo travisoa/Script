@@ -9,6 +9,8 @@ skip-proxy = %APPEND% *.start.qq.com, szmg.qq.com, cwebapi.start.qq.com, start.g
 tun-excluded-routes = %APPEND% 183.3.235.141/32, 157.148.32.0/24,157.148.33.0/24, 116.130.220.0/24, 183.61.49.155/32
 
 [Rule]
+PROCESS-NAME,QQMusic,DIRECT
+PROCESS-NAME,prl_naptd,DIRECT
 #腾讯游戏
 PROCESS-NAME,CocoaCefWing,DIRECT // START
 PROCESS-NAME,STGame,DIRECT // START
