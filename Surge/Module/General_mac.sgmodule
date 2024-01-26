@@ -22,6 +22,8 @@ PROCESS-NAME,CleanMyMac X,DIRECT
 PROCESS-NAME,CleanMyMac X HealthMonitor,DIRECT
 #TV
 PROCESS-NAME,TV,Apple TV
+#Arc浏览器更新
+DOMAIN,releases.arc.net,Auto
 #阿里云盘
 PROCESS-NAME,aDrive Helper,DIRECT
 PROCESS-NAME,aDrive,DIRECT
