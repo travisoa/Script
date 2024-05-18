@@ -48,3 +48,20 @@ DOMAIN-SUFFIX,analytics.wise.com
 DOMAIN-SUFFIX,analytics.transferwise.com
 DOMAIN-SUFFIX,tracking.wise.com
 DOMAIN-SUFFIX,tracking.transferwise.com
+
+# Kraken 
+DOMAIN-SUFFIX,kraken.com
+DOMAIN-SUFFIX,kraken.io
+DOMAIN-SUFFIX,kraken.tech
+
+# 以下为 Kraken 可能使用的子域名，可根据需要进行调整
+DOMAIN-SUFFIX,api.kraken.com
+DOMAIN-SUFFIX,auth.kraken.com
+DOMAIN-SUFFIX,www.kraken.com
+DOMAIN-SUFFIX,app.kraken.com
+DOMAIN-SUFFIX,assets.kraken.com
+DOMAIN-SUFFIX,cdn.kraken.com
+
+# 以下为 Kraken 可能使用的分析和数据收集域名
+DOMAIN-SUFFIX,analytics.kraken.com
+DOMAIN-SUFFIX,tracking.kraken.com
