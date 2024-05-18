@@ -1,3 +1,4 @@
+# LinkedIn 
 DOMAIN-SUFFIX,linkedin.com
 DOMAIN-SUFFIX,lnkd.in
 DOMAIN-SUFFIX,licdn.com
@@ -17,3 +18,33 @@ DOMAIN-SUFFIX,lnkd.in
 # 以下为 LinkedIn 可能使用的分析和数据收集域名
 DOMAIN-SUFFIX,px.licdn.com
 DOMAIN-SUFFIX,ad.doubleclick.net
+
+# wise 
+DOMAIN-SUFFIX,wise.com
+DOMAIN-SUFFIX,transferwise.com
+DOMAIN-SUFFIX,wise.us
+DOMAIN-SUFFIX,wise.io
+DOMAIN-SUFFIX,transferwise.us
+DOMAIN-SUFFIX,transferwise.io
+
+# 以下为 Wise 可能使用的子域名，可根据需要进行调整
+DOMAIN-SUFFIX,app.wise.com
+DOMAIN-SUFFIX,api.wise.com
+DOMAIN-SUFFIX,auth.wise.com
+DOMAIN-SUFFIX,auth.transferwise.com
+DOMAIN-SUFFIX,www.wise.com
+DOMAIN-SUFFIX,www.transferwise.com
+DOMAIN-SUFFIX,assets.wise.com
+DOMAIN-SUFFIX,assets.transferwise.com
+DOMAIN-SUFFIX,cdn.wise.com
+DOMAIN-SUFFIX,cdn.transferwise.com
+
+# 以下为 Wise 可能使用的短链域名
+DOMAIN-SUFFIX,wi.se
+DOMAIN-SUFFIX,twse.io
+
+# 以下为 Wise 可能使用的分析和数据收集域名
+DOMAIN-SUFFIX,analytics.wise.com
+DOMAIN-SUFFIX,analytics.transferwise.com
+DOMAIN-SUFFIX,tracking.wise.com
+DOMAIN-SUFFIX,tracking.transferwise.com
