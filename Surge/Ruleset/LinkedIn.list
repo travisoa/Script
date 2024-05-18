@@ -1,0 +1,19 @@
+DOMAIN-SUFFIX,linkedin.com
+DOMAIN-SUFFIX,lnkd.in
+DOMAIN-SUFFIX,licdn.com
+DOMAIN-SUFFIX,linkedin.net
+
+# 以下为 LinkedIn 可能使用的子域名，可根据需要进行调整
+DOMAIN-SUFFIX,www.linkedin.com
+DOMAIN-SUFFIX,static.licdn.com
+DOMAIN-SUFFIX,media.licdn.com
+DOMAIN-SUFFIX,video.licdn.com
+DOMAIN-SUFFIX,static-exp1.licdn.com
+DOMAIN-SUFFIX,static-exp2.licdn.com
+
+# 以下为 LinkedIn 可能使用的短链域名
+DOMAIN-SUFFIX,lnkd.in
+
+# 以下为 LinkedIn 可能使用的分析和数据收集域名
+DOMAIN-SUFFIX,px.licdn.com
+DOMAIN-SUFFIX,ad.doubleclick.net
