@@ -65,3 +65,4 @@ DOMAIN-SUFFIX,cdn.kraken.com
 # 以下为 Kraken 可能使用的分析和数据收集域名
 DOMAIN-SUFFIX,analytics.kraken.com
 DOMAIN-SUFFIX,tracking.kraken.com
+# 测试
