@@ -1,3 +1,4 @@
+DOMAIN,*.openai.com
 DOMAIN,api.openai.com
 DOMAIN,beta.openai.com
 DOMAIN,chat-collector.api.openai.com
