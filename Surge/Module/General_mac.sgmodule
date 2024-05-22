@@ -32,6 +32,5 @@ PROCESS-NAME,aDrive Helper (Renderer),DIRECT
 PROCESS-NAME,Pixelmator Pro,DIRECT
 #ChatGPT
 PROCESS-NAME,ChatGPT,Auto // ChatGPT
-PROCESS-NAME,/Applications/ChatGPT.app/Contents/MacOS/ChatGPT,Auto // ChatGPT
 #PS
 PROCESS-NAME,Adobe Photoshop 2024,Auto
