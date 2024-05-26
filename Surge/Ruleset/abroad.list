@@ -73,3 +73,5 @@ DOMAIN-SUFFIX,stream-link.online
 DOMAIN-SUFFIX,stream-link.org
 # Discord
 DOMAIN-SUFFIX,discord.gg
+#surge 官网
+DOMAIN,nssurge.com
