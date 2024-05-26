@@ -1,3 +1,4 @@
+#此规则列表仅为补充项（基于https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/gfw.txt)
 # LinkedIn 
 DOMAIN-SUFFIX,linkedin.com
 DOMAIN-SUFFIX,lnkd.in
@@ -67,3 +68,8 @@ DOMAIN-SUFFIX,analytics.kraken.com
 DOMAIN-SUFFIX,tracking.kraken.com
 # 其他
 DOMAIN-SUFFIX,eroticbeauties.net
+# 直播源
+DOMAIN-SUFFIX,stream-link.online
+DOMAIN-SUFFIX,stream-link.org
+# Discord
+DOMAIN-SUFFIX,discord.gg
