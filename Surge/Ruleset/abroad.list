@@ -1,3 +1,4 @@
+#此规则列表仅为补充项（基于https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/gfw.txt)
 # LinkedIn 
 DOMAIN-SUFFIX,linkedin.com
 DOMAIN-SUFFIX,lnkd.in
@@ -80,3 +81,10 @@ IP-CIDR6,2001:67c:4e8::/48
 IP-CIDR6,2001:b28:f23c::/47
 IP-CIDR6,2001:b28:f23f::/48
 IP-CIDR6,2a0a:f280::/32
+# 直播源
+DOMAIN-SUFFIX,stream-link.online
+DOMAIN-SUFFIX,stream-link.org
+# Discord
+DOMAIN-SUFFIX,discord.gg
+#surge 官网
+DOMAIN,nssurge.com

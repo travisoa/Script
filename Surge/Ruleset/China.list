@@ -1,4 +1,4 @@
-# China Area Network
+# 此规则列表仅为补充项(https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/direct.txt)
 # others
 DOMAIN-SUFFIX,bjango.com
 # > Baidu
@@ -241,3 +241,7 @@ DOMAIN-SUFFIX,cn-shanghai.aliyuncs.com
 DOMAIN-SUFFIX,gov.cn
 #阿里云盘
 DOMAIN-KEYWORD,aliyundrive
+#wegame
+DOMAIN-KEYWORD,wegame.com.cn
+#iMaZing
+DOMAIN-SUFFIX,imazing.com
