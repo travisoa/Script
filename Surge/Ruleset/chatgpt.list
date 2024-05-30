@@ -28,14 +28,15 @@ DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,oaiusercontent.com
 DOMAIN-SUFFIX,observeit.net
 DOMAIN-SUFFIX,chatgpt.com
-DOMAIN-SUFFIX,chatgpt.livekit.cloud
 DOMAIN-SUFFIX,engine-inference.api.openai.com
 DOMAIN-SUFFIX,engine-proxy.api.openai.com
 DOMAIN-SUFFIX,engine.sciclops.com
-DOMAIN-SUFFIX,host.livekit.cloud
 DOMAIN-SUFFIX,segment.io
 DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,stripe.com
+# ChatGPT Voice
+DOMAIN-SUFFIX,chatgpt.livekit.cloud
+DOMAIN-SUFFIX,host.livekit.cloud
 DOMAIN-SUFFIX,turn.livekit.cloud
 IP-CIDR,104.238.150.13/32,no-resolve
 IP-CIDR,143.110.232.239/32,no-resolve
