@@ -88,3 +88,6 @@ DOMAIN-SUFFIX,stream-link.org
 DOMAIN-SUFFIX,discord.gg
 #surge 官网
 DOMAIN,nssurge.com
+#土区礼品卡
+DOMAIN-SUFFIX,store.steampowered.com                                                                                                                                                      
+DOMAIN-SUFFIX,steamcom
