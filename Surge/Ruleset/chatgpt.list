@@ -34,6 +34,8 @@ DOMAIN-SUFFIX,engine.sciclops.com
 DOMAIN-SUFFIX,segment.io
 DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,stripe.com
+DOMAIN-SUFFIX,ingest.sentry.io
+DOMAIN,browser-intake-datadoghq.com
 # ChatGPT Voice
 DOMAIN-SUFFIX,chatgpt.livekit.cloud
 DOMAIN-SUFFIX,host.livekit.cloud
