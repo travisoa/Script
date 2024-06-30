@@ -96,3 +96,23 @@ DOMAIN,sms-activate.io
 #Claude
 IP-CIDR,160.79.104.0/23
 IP-CIDR6,2607:6bc0::/48
+# Claude 主域名
+DOMAIN-SUFFIX,claude.ai
+# Claude API
+DOMAIN-SUFFIX,api.claude.ai
+# Claude 静态资源
+DOMAIN-SUFFIX,static.claude.ai
+# Claude 图片处理服务
+DOMAIN-SUFFIX,images.claude.ai
+# Claude 分析服务
+DOMAIN-SUFFIX,analytics.claude.ai
+# Claude CDN
+DOMAIN-SUFFIX,cdn.claude.ai
+# Claude 文档
+DOMAIN-SUFFIX,docs.claude.ai
+# Claude 开发者平台
+DOMAIN-SUFFIX,developers.claude.ai
+# Claude 状态页面
+DOMAIN-SUFFIX,status.claude.ai
+# Claude 博客
+DOMAIN-SUFFIX,blog.claude.ai
