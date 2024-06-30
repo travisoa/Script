@@ -91,3 +91,8 @@ DOMAIN,nssurge.com
 #土区礼品卡
 DOMAIN-SUFFIX,store.steampowered.com                                                                                                                                                      
 DOMAIN-SUFFIX,steamcom
+#接码平台
+DOMAIN,sms-activate.io
+#Claude
+IP-CIDR,160.79.104.0/23
+IP-CIDR6,2607:6bc0::/48
