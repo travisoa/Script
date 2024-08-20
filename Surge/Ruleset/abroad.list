@@ -103,3 +103,8 @@ DOMAIN-SUFFIX,developers.claude.ai
 DOMAIN-SUFFIX,status.claude.ai
 # Claude 博客
 DOMAIN-SUFFIX,blog.claude.ai
+#X
+DOMAIN-SUFFIX,x.com
+DOMAIN-SUFFIX,nssurge.com
+#FilezillaPro
+DOMAIN-SUFFIX,filezillapro.com
