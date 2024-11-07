@@ -37,3 +37,5 @@ PROCESS-NAME,Adobe Photoshop 2024,Auto
 #飞书
 PROCESS-NAME,Feishu,DIRECT
 PROCESS-NAME,Lark Helper,DIRECT
+#apple news
+PROCESS-NAME,News,Auto // apple news
