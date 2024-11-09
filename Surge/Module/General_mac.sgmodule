@@ -21,7 +21,7 @@ PROCESS-NAME,CleanMyMac X Menu,DIRECT // CleanMyMacX
 PROCESS-NAME,CleanMyMac X,DIRECT
 PROCESS-NAME,CleanMyMac X HealthMonitor,DIRECT
 #TV
-# PROCESS-NAME,TV,Apple TV
+PROCESS-NAME,TV,{{{Proxy}}}
 #Arc浏览器更新
 DOMAIN,releases.arc.net,Auto
 #阿里云盘
