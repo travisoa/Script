@@ -18,7 +18,7 @@ sudo sysctl net.ipv4.tcp_available_congestion_control
 # Download and install snell
 cd
 ARCH=$(uname -m)
-BASE_URL="https://dl.nssurge.com/snell/snell-server-v4.1.1-linux"
+BASE_URL="https://dl.nssurge.com/snell/snell-server-v5.0.0b3-linux"
 case $ARCH in
     "x86_64")
         PACKAGE="${BASE_URL}-amd64.zip"
