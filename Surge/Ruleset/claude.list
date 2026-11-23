@@ -1,20 +1,56 @@
 # NAME: Claude
 # AUTHOR: Travis
-# UPDATED: 2026-03-23
-# DOMAIN: 8
+# UPDATED: 2026-11-23
+# DOMAIN: 11
+# DOMAIN-SUFFIX: 28
 # DOMAIN-KEYWORD: 2
-# TOTAL: 10
+# TOTAL: 41
 
+# Claude / Anthropic
 DOMAIN-SUFFIX,claude.ai
 DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claude.com
 DOMAIN-SUFFIX,claudeusercontent.com
 DOMAIN-SUFFIX,anthropicusercontent.com
+DOMAIN-SUFFIX,claude.app
+DOMAIN-SUFFIX,claudemcpcontent.com
+DOMAIN-SUFFIX,claude.de
+DOMAIN-SUFFIX,claudemcpclient.com
+DOMAIN-SUFFIX,claude.dev
+DOMAIN-SUFFIX,claude.site
+DOMAIN-SUFFIX,claudeacademy.com
+DOMAIN-SUFFIX,claude.new
+DOMAIN-SUFFIX,ant.dev
+DOMAIN-SUFFIX,anthropic.team
+DOMAIN-SUFFIX,antspace.dev
+DOMAIN-SUFFIX,chatbotclaude.com
+DOMAIN-SUFFIX,claudepages.dev
+DOMAIN-SUFFIX,claudestudio.com
 
-DOMAIN-SUFFIX,cdn.claude.ai
-DOMAIN-SUFFIX,static.claude.ai
+# 客服、登录、支付与遥测
+DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,intercomcdn.com
+DOMAIN-SUFFIX,intercomassets.com
+DOMAIN-SUFFIX,intercom-messenger.com
+DOMAIN-SUFFIX,siftscience.com
+DOMAIN,us5.datadoghq.com
+DOMAIN,browser-intake-us5-datadoghq.com
+DOMAIN,r.stripe.com
+DOMAIN,us.sentry.io
+DOMAIN,fcmtoken.googleapis.com
+DOMAIN,servd-anthropic-website.b-cdn.net
+DOMAIN,anthropic.auth0.com
+DOMAIN,anthropic-com.ghost.io
+DOMAIN,anthropic.com.cdn.cloudflare.net
 
-DOMAIN-SUFFIX,sentry.io
-DOMAIN-SUFFIX,stripe.com
+# 人机验证、身份验证与统计
+DOMAIN-SUFFIX,hcaptcha.com
+DOMAIN,challenges.cloudflare.com
+DOMAIN-SUFFIX,withpersona.com
+DOMAIN-SUFFIX,yoti.com
+DOMAIN-SUFFIX,statsigapi.net
+DOMAIN,cdn.usefathom.com
 
+# 关键词兜底
 DOMAIN-KEYWORD,claude
 DOMAIN-KEYWORD,anthropic
